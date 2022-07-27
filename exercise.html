@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+
+<body>
+    <h1>Marathon Registration Form</h1>
+    <form action="">
+        <div>
+            <label for="fname">Enter first name:</label>
+            <input type="text" name="fname" id="fname" required>
+            <label for="lname">Enter last name:</label>
+            <input type="text" name="lname" id="lname" required>
+        </div>
+        <h4>Select race type:</h4>
+        <div>
+            <input type="radio" name="Marathon" id="race" value="funrun">
+            <label for="race">Fun Run 5 Kilometers</label>
+        </div>
+        <div>
+            <input type="radio" name="Marathon" id="race" value="half">
+            <label for="race">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="Marathon" id="race" value="full">
+            <label for="race">Full Marathon</label>
+        </div>
+        <br>
+        <div>
+            <label for="email">Enter your email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Enter your password:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="age">Select you age group:</label>
+            <select name="age" id="age" required>
+                <option value="age">Click here to select</option>
+                <option value="kids">Below 18</option>
+                <option value="youngsters">Between 18 to 25</option>
+                <option value="adults">Between 26 to 35</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
+http://127.0.0.1:5500/search/?fname=Jatin&lname=Mehra&Marathon=full&email=xyz%40mail.com&password=xyz%40123&age=youngsters
