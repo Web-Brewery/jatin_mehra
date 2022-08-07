@@ -1,0 +1,33 @@
+body {
+    background-color: #c5f8f8;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+hr {
+    border-color: darkgrey;
+    border-width: 10px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+}
+
+h1 {
+    color: rgb(0, 146, 243);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+h3,
+h4 {
+    color: #66BFBF;
+}
+
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
